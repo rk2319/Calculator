@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main() 
+{
 
   char op;
   double first, second;
@@ -9,7 +10,8 @@ int main() {
   printf("Enter two operands: ");
   scanf("%lf %lf", &first, &second);
 
-  switch (op) {
+  switch (op)
+  {
     case '+':
       printf("%.1lf + %.1lf = %.1lf", first, second, first + second);
       break;
